@@ -20,6 +20,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public Department save(Department department) {
         log.info("Saved Department is {}", department);
+        log.info("https://www.youtube.com/watch?v=BnknNTN8icw");
         return repository.save(department);
     }
 

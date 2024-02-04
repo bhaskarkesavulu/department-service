@@ -18,6 +18,6 @@ public class Department {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long departmentId;
     private String departmentName;
-    private String getDepartmentAddress;
-    private String getDepartmentCode;
+    private String departmentAddress;
+    private String departmentCode;
 }
